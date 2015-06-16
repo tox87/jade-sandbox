@@ -1,0 +1,9 @@
+extends base
+
+block content
+	block vars
+	h2 var value: #{t}
+	ul.mylist
+		li#one(class={'active': a === true})
+		li#two(class={'active': b === true})
+		block subcontent
